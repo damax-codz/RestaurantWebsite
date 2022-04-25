@@ -1,0 +1,47 @@
+.about-div {
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    
+}
+
+.info{
+    max-width: 650px;
+}
+
+h2{
+    margin-bottom: 40px;
+    color: rgb(201, 28, 28);
+}
+
+@media screen and (max-width:780px) {  
+    .image {
+      display: none;
+    }
+
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.picture{
+    float: right;
+    padding: 40px;  
+}
+
+.read-more{
+    color: white;
+    cursor: pointer;
+    border: 1px solid wheat;
+    text-transform: uppercase;
+    background-color: rgb(201, 28, 28);
+    border-radius: 5px;
+    margin-top: 60px;
+    height: 20px;
+    width: 120px;
+    padding: 15px;
+    text-align: center;
+}
