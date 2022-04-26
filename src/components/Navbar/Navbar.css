@@ -4,8 +4,13 @@
     width: 100%;
     max-width: 1124px;
 }
-.navbar h3{
+.navbar span{
     margin-left: 10px;
+    margin-top: 10px;
+    word-spacing: 7px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Ms Madi', cursive;
 }
 
 .navbar .links{
@@ -41,6 +46,10 @@
     .navbar .links ul { display: none;}
     .menubutton img{ display: inline;}
     .menubutton{display: flex;}
+}
+
+@media (max-width:500px){
+    .navbar span{font-size: 20px;}
 }
 
 .dropdown{

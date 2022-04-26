@@ -29,11 +29,11 @@
   }
   
 
-.image{
+.imag{
     width: 50%;
     animation: fade-in-right 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
-.image img{
+.imag img{
     width: 80%;
     height: 100%;
     margin: 10px 0px 0px 20px;
@@ -54,7 +54,7 @@
     justify-content: center;
 }
 .featurescontainer .head hr{
-    background-color: rgb(201, 28, 28);
+    background-color: #c91c1c;
     border-color: rgb(201, 28, 28);
     height: 0.5px;
     width: 55px;
@@ -97,7 +97,7 @@
 @media (max-width:800px) {
   .container{flex-direction: column; align-items: center; text-align: center;}
   .writeup{ width: 100%; display: flex;flex-direction: column;align-items: center; }
-  .image{ width: 100% ;margin-top: 40px; }
+  .imag{ width: 100% ;margin-top: 40px; }
   .features{ flex-direction: column;align-items: center; }
   .writeup h1{ font-size: 40px;}
 }

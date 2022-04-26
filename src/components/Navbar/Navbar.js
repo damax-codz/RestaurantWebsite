@@ -29,13 +29,13 @@ function Navbar() {
         <div>
         <div className='cancel' onClick={dropUp}><img src='images.png' alt='cancel' /></div>
         <ul>
-         <Link to='/'><li>Home</li></Link> 
+         <Link to='/'  onClick={dropUp}><li>Home</li></Link> 
          <hr></hr>
-         <Link to='/about'><li>About</li></Link>
+         <Link to='/about'  onClick={dropUp}><li>About</li></Link>
          <hr></hr>
-         <Link to='/contact'><li>Contact</li></Link>
+         <Link to='/contact'  onClick={dropUp}><li>Contact</li></Link>
          <hr></hr>
-         <Link to='/products'><li>Products</li>  </Link>
+         <Link to='/products'  onClick={dropUp}><li>Products</li>  </Link>
          <hr></hr>
      </ul>
         </div>
@@ -45,7 +45,7 @@ function Navbar() {
     </div>
 
     <div className='navbar'>
-     <h3>logo</h3>
+     <span>Afrikan  P<img src='pot.png' alt='pot' />t</span>
      <div className='links'>
 
      <ul>
