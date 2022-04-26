@@ -1,8 +1,61 @@
 import React from 'react'
+import Button from '../Button/button'
+import './home.css'
+
 
 function Home() {
   return (
-    <div>Home</div>
+      <>
+    <div className='container'>
+    
+    <section className='writeup'>
+    <h1>Hasty and tasty!</h1>
+    <h3>“We welcome your appetite. satisfy your stomach with our Naija delicacies.</h3>
+    <Button name='Order now' color='white' bg='rgb(201, 28, 28)' />
+    </section>
+
+    <section className='image'>
+    <img src='https://c4.wallpaperflare.com/wallpaper/110/296/976/chicken-grilled-vegetables-potatoes-wallpaper-preview.jpg' alt='food'></img>
+    </section>
+    </div>
+
+    <div className='featurescontainer'>
+        
+    <section className='head'>
+    <h3>OUR CORE FEATURES</h3>
+    <hr></hr>
+    </section>
+
+    <section className='features'> 
+    <div className='box'>
+    <div className='icons'>
+    <img src='fast-delivery.png' alt='food'></img>
+    </div>
+    <h4>WE DELIVER ANYWHERE </h4>
+    <p> this is just a dummy text , main text coming soon</p>
+        
+    </div>
+    <div className='box'>
+    <div className='icons'>
+    <img src='food.png' alt='food'></img>
+    </div>
+    <h4>WE'VE GOT THE BEST DISHES </h4>
+    <p> this is just a dummy text , main text coming soon</p>
+        
+    </div>
+    <div className='box'>
+    <div className='icons'>
+    <img src='handshake.png' alt='hand'></img>
+    </div>
+    <h4> WE ARE RELIABLE </h4>
+    <p> this is just a dummy text , main text coming soon</p>
+        
+    </div>
+
+    </section>
+  
+    </div>
+      </>
   )
 }
 
