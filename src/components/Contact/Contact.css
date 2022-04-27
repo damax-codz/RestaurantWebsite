@@ -1,23 +1,19 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-.padd-15{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.container{
+} */
+
+.contain{
     
-    max-width: 1100px;
+    max-width: 1124px;
     width: 100%;
-    margin: auto;
 }
 .row{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap;
     margin-left: -15px;
-    margin-right: -15px;
+    margin-right: -15px; */
     position: relative;
 }
 
@@ -61,41 +57,40 @@
     font-weight: 400;
 }
 .form{
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-.form .col-6{
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-.form .col-12{
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-.form .form-item{
-    margin-bottom: 30px;
-}
-.form .form-item .form-control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:100px;
     width: 100%;
-    height: 50px;
-    border-radius: 25px;
-    background: var(--bg-black-50);
-    padding: 10px 25px;
-    font-size: 16px;
-    color: var(--text-black-700);
-    transition: all 0.3s ease;
 }
-.form .form-item .form-control:focus{
-    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+
+.form input{
+    width: 500px;
+    height: 40px;
+    margin: 20px 0px 10px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.266);
+    border-radius: 3px;
 }
-.form .form-item textarea .form-control{
-    height: 140px;
+.form textarea{
+    resize: none;
+    border: 1px solid rgba(0, 0, 0, 0.266);
+    width: 500px;
 
 }
-.form .btn{
-    height: 50px;
-    padding: 0 50px;
-}
+ .form button {
+    padding: 0.6rem 2rem;
+    background-color: rgb(201, 28, 28);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+.form button:hover {
+    opacity: 0.8;
+  }
+  
 .btn{
     font-size: 16px;
     font-weight: 500;
@@ -120,11 +115,23 @@
         max-width: 50%;
     }
 }
-@media (max-width:767px)
+@media (max-width:800px)
 {
-    .form .col-6,
+    
     .info-item{
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .row{
+       flex-wrap: wrap;
+    }
+ 
+}
+@media (max-width:500px){
+    .form input {
+        width: 300px;
+    }
+    .form textarea{
+        width: 300px;
     }
 }
