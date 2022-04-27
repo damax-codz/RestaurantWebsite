@@ -32,7 +32,7 @@ function Navbar() {
         <div>
         <div className='cancel' onClick={dropUp}><img src={cancel} alt='cancel' /></div>
         <ul>
-         <Link to='/'  onClick={dropUp}><li>Home</li></Link> 
+         <Link to='/RestaurantWebsite/'  onClick={dropUp}><li>Home</li></Link> 
          <hr></hr>
          <Link to='/about'  onClick={dropUp}><li>About</li></Link>
          <hr></hr>
@@ -52,7 +52,7 @@ function Navbar() {
      <div className='links'>
 
      <ul>
-         <Link to='/'><li>Home</li></Link> 
+         <Link to='/RestaurantWebsite/'><li>Home</li></Link> 
          <Link to='/about'><li>About</li></Link>
          <Link to='/contact'><li>Contact</li></Link>
          <Link to='/products'><li><Button name='Products' color='rgb(201, 28, 28)' bg='white' /></li>  </Link>
