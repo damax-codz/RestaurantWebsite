@@ -140,6 +140,6 @@
 }
 @media (max-width:500px) {
     .uni h2{width: 0%;display: none;}
-    .uni{justify-content: center;}
-    .oj{width: 70%;}
+    .uni{justify-content: center;height: 150px;}
+    .oj img{width: 150px;height: 150px;margin-top: -60px;}
 }
