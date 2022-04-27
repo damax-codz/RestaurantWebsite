@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RestaurantWebsite/static/css/main.df638868.css",
-    "main.js": "/RestaurantWebsite/static/js/main.03635f8e.js",
+    "main.css": "/RestaurantWebsite/static/css/main.48eba68f.css",
+    "main.js": "/RestaurantWebsite/static/js/main.ba8d19db.js",
     "static/js/787.5653e3f8.chunk.js": "/RestaurantWebsite/static/js/787.5653e3f8.chunk.js",
     "static/media/table.jpg": "/RestaurantWebsite/static/media/table.002bd1a155bdc5e831d1.jpg",
     "static/media/eforiro.jpg": "/RestaurantWebsite/static/media/eforiro.6ec2eba20a2cf0d95b06.jpg",
@@ -25,12 +25,12 @@
     "static/media/logo-instagram.svg": "/RestaurantWebsite/static/media/logo-instagram.fbb107132aadf947e58dfacd7b9a7aa7.svg",
     "static/media/logo-facebook.svg": "/RestaurantWebsite/static/media/logo-facebook.8d2d5540ac2e2e93b3a91446496b8939.svg",
     "static/media/mail-outline.svg": "/RestaurantWebsite/static/media/mail-outline.703e59272e2a6010088f2f0096d1b475.svg",
-    "main.df638868.css.map": "/RestaurantWebsite/static/css/main.df638868.css.map",
-    "main.03635f8e.js.map": "/RestaurantWebsite/static/js/main.03635f8e.js.map",
+    "main.48eba68f.css.map": "/RestaurantWebsite/static/css/main.48eba68f.css.map",
+    "main.ba8d19db.js.map": "/RestaurantWebsite/static/js/main.ba8d19db.js.map",
     "787.5653e3f8.chunk.js.map": "/RestaurantWebsite/static/js/787.5653e3f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df638868.css",
-    "static/js/main.03635f8e.js"
+    "static/css/main.48eba68f.css",
+    "static/js/main.ba8d19db.js"
   ]
 }
