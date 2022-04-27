@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/RestaurantWebsite/static/css/main.df638868.css",
+    "main.js": "/RestaurantWebsite/static/js/main.738dc803.js",
+    "static/js/787.5653e3f8.chunk.js": "/RestaurantWebsite/static/js/787.5653e3f8.chunk.js",
+    "static/media/table.jpg": "/RestaurantWebsite/static/media/table.002bd1a155bdc5e831d1.jpg",
+    "static/media/eforiro.jpg": "/RestaurantWebsite/static/media/eforiro.6ec2eba20a2cf0d95b06.jpg",
+    "static/media/Poundedyam2.jpg": "/RestaurantWebsite/static/media/Poundedyam2.017a072b9268f366ced4.jpg",
+    "static/media/coconutrice.jpg": "/RestaurantWebsite/static/media/coconutrice.acb895f2fe4d7f1e568c.jpg",
+    "static/media/bangasoup3.jpg": "/RestaurantWebsite/static/media/bangasoup3.d2bd573ea631ca407b2b.jpg",
+    "static/media/Okro.jpg": "/RestaurantWebsite/static/media/Okro.bc19918c5ab5ac22c151.jpg",
+    "static/media/Afangsoup3.jpg": "/RestaurantWebsite/static/media/Afangsoup3.53800f88cded42c8756e.jpg",
+    "static/media/Whiterice2.jpg": "/RestaurantWebsite/static/media/Whiterice2.03c213114b127e9471b4.jpg",
+    "static/media/Fufu2.jpg": "/RestaurantWebsite/static/media/Fufu2.6da4deebb3d79d25f349.jpg",
+    "static/media/OfadaRice2.jpg": "/RestaurantWebsite/static/media/OfadaRice2.2c2b8b27d9399b09196f.jpg",
+    "static/media/Spag3.jpg": "/RestaurantWebsite/static/media/Spag3.495a668a7743f1904ea6.jpg",
+    "static/media/Spag.jpg": "/RestaurantWebsite/static/media/Spag.700eedced6aebb517671.jpg",
+    "static/media/ogbono.jpg": "/RestaurantWebsite/static/media/ogbono.fd1d9ffa82643ebb219b.jpg",
+    "static/media/Plantain2.jpg": "/RestaurantWebsite/static/media/Plantain2.27e0c91fea1e621c6997.jpg",
+    "static/media/jollof2.jpg": "/RestaurantWebsite/static/media/jollof2.1447acbc85240f339ce2.jpg",
+    "static/media/eba2.jpg": "/RestaurantWebsite/static/media/eba2.74baa8afa5cb897dab25.jpg",
+    "index.html": "/RestaurantWebsite/index.html",
+    "static/media/logo-twitter.svg": "/RestaurantWebsite/static/media/logo-twitter.15c1ecabea7e92cbd8a8740b6868e38a.svg",
+    "static/media/logo-instagram.svg": "/RestaurantWebsite/static/media/logo-instagram.fbb107132aadf947e58dfacd7b9a7aa7.svg",
+    "static/media/logo-facebook.svg": "/RestaurantWebsite/static/media/logo-facebook.8d2d5540ac2e2e93b3a91446496b8939.svg",
+    "static/media/mail-outline.svg": "/RestaurantWebsite/static/media/mail-outline.703e59272e2a6010088f2f0096d1b475.svg",
+    "main.df638868.css.map": "/RestaurantWebsite/static/css/main.df638868.css.map",
+    "main.738dc803.js.map": "/RestaurantWebsite/static/js/main.738dc803.js.map",
+    "787.5653e3f8.chunk.js.map": "/RestaurantWebsite/static/js/787.5653e3f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df638868.css",
+    "static/js/main.738dc803.js"
+  ]
+}
