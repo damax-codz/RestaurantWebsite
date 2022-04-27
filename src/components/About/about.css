@@ -12,7 +12,7 @@
 }
 
 
-h2{
+h1{
     margin-bottom: 40px;
     color: rgb(201, 28, 28);
 }
@@ -39,6 +39,7 @@ h2{
     height: 350px;
     width: 350px;
     border-radius: 50%;
+    animation: fade-in-right 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .picture{
