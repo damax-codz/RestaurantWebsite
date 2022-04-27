@@ -2,6 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Button from '../Button/button'
 import './home.css'
+import bike from '../../images/fast-delivery.png'
+import food from '../../images/food.png'
+import shake from '../../images/handshake.png'
+
 
 
 function Home() {
@@ -30,7 +34,7 @@ function Home() {
     <section className='features'> 
     <div className='box'>
     <div className='icons'>
-    <img src='fast-delivery.png' alt='food'></img>
+    <img src={bike} alt='food'></img>
     </div>
     <h4>WE DELIVER ANYWHERE </h4>
     <p> Our services are not limited to any place around the globe</p>
@@ -38,7 +42,7 @@ function Home() {
     </div>
     <div className='box'>
     <div className='icons'>
-    <img src='food.png' alt='food'></img>
+    <img src={food} alt='food'></img>
     </div>
     <h4>WE'VE GOT THE BEST DISHES </h4>
     <p> from the hands of professionals comes our marvelous dishes</p>
@@ -46,7 +50,7 @@ function Home() {
     </div>
     <div className='box'>
     <div className='icons'>
-    <img src='handshake.png' alt='hand'></img>
+    <img src={shake} alt='hand'></img>
     </div>
     <h4> WE ARE RELIABLE </h4>
     <p> order your food and in matter of seconds we are at your door step </p>

@@ -2,6 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Button from '../Button/button'
 import './Navbar.css'
+import pot from '../../images/pot.png'
+import menu from '../../images/menu.png'
+import cancel from '../../images/images.png'
 
 
 
@@ -27,7 +30,7 @@ function Navbar() {
     <div className='dropdown' > 
     <div className='cover' >
         <div>
-        <div className='cancel' onClick={dropUp}><img src='images.png' alt='cancel' /></div>
+        <div className='cancel' onClick={dropUp}><img src={cancel} alt='cancel' /></div>
         <ul>
          <Link to='/'  onClick={dropUp}><li>Home</li></Link> 
          <hr></hr>
@@ -45,7 +48,7 @@ function Navbar() {
     </div>
 
     <div className='navbar'>
-     <span>Afrikan  P<img src='pot.png' alt='pot' />t</span>
+     <span>Afrikan  P<img src={pot} alt='pot' />t</span>
      <div className='links'>
 
      <ul>
@@ -55,7 +58,7 @@ function Navbar() {
          <Link to='/products'><li><Button name='Products' color='rgb(201, 28, 28)' bg='white' /></li>  </Link>
      </ul>
      </div>
-        <div className='menubutton' onClick={dropDown}> <img src='menu.png' alt='menu' />  </div>
+        <div className='menubutton' onClick={dropDown}> <img src={menu} alt='menu' />  </div>
     </div>
    </>
   )
