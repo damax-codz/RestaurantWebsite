@@ -15,7 +15,7 @@ function Navbar() {
    
     function dropDown(){
         document.querySelector('.dropdown').style.display='flex'
-        document.querySelector('.cover').style.width='60%'
+        document.querySelector('.cover').style.width='100%'
         document.body.style.overflowY='hidden'
     }
     function dropUp(){
