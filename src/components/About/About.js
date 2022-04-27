@@ -7,7 +7,7 @@ function About() {
   return (
     <div className='about-div'>
       <div className="info">
-        <h2>About Afrikan Pot</h2>
+        <h1>About Afrikan Pot</h1>
         
         <p>Afrikan Pot is a locally and family owned business that was founded in 2021. We are
           dedicated to creating delicious meals that you will absolutely love. When you visit our
